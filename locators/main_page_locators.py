@@ -13,3 +13,8 @@ class MainPageLocators:
     ORDER_SUCCESS = (By.XPATH, "//*[contains(text(), 'идентификатор заказа')]")
     LOGIN_BUTTON = (By.XPATH, "//button[text()='Войти в аккаунт']")
     PROFILE_BUTTON = (By.XPATH, "//p[text()='Личный Кабинет']")
+    MODAL_ORDER_SECTION = (By.CSS_SELECTOR, "section.Modal_modal_opened__3ISw4")
+    MODAL_LOADING_INDICATOR = (By.CSS_SELECTOR, "div.Modal_modal__P3_V5 img.Modal_modal__loading__3534A")
+    ORDER_NUMBER_IN_MODAL = (By.CSS_SELECTOR, "section.Modal_modal_opened__3ISw4 h2")
+    ORDER_MODAL_TITLE_TEXT = (By.XPATH, "//div[contains(@class, 'modal') and .//p[contains(text(), 'Ваш заказ')]]")
+    ORDER_FEED_LIST = (By.XPATH, "//ul[contains(@class, 'OrderFeed_list__OLh59')]")

@@ -7,3 +7,4 @@ class LoginLocators:
     LOGIN_BUTTON = (By.XPATH, "//button[text()='Войти']")
     RESTORE_PASSWORD_BUTTON = (By.LINK_TEXT, "Восстановить пароль")
     LOGIN_FORM = (By.CLASS_NAME, "Auth_form__3qKeq")
+    ERROR_MSG =  (By.XPATH, "//p[contains(@class, 'input__error')]")
